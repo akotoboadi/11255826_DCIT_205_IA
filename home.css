@@ -1,0 +1,130 @@
+#mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    top: 33px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center !important;
+}
+#header {
+    width: 100% !important;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    display: block;
+}
+.header-up {
+    background: #fff;
+    font-size: 12px;
+    padding: 8px;
+    width: 100% !important;
+}
+.container {
+    max-width: 1140px;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* border-bottom: 1px solid #39353e; */
+}
+#logo{
+    display:inline-block;
+}
+#header #logo img {
+    padding: 0;
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu > li {
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    white-space: nowrap;
+    display:inline-block;
+}
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.buttonhold{
+    display:inline-block;
+}
+.buttonhold{
+    margin-left: 700px;
+}
+.nav_button,.gap_button{
+    display: inline-block;
+    background-color: white;
+    margin-left: 5px;
+    color:black;
+    border:none;
+    border-radius: 3px;
+    vertical-align:text-bottom;
+    text-decoration: underline;
+    text-decoration-color: #BD9C6C;
+    transition: text-decoration 0.15s,border-radius 0.15s,border-color 0.15s;
+    cursor:pointer;
+
+}
+.gap_button{
+    transition: text-decoration 0.15s,border-radius 0.15s,border-color 0.15s;
+}
+
+.nav-menu a{
+    color:black;
+    border:none;
+    text-decoration: none;
+    transition:all 0.15s
+}
+.nav-menu a:hover{
+    color:#BD9C6C;
+    text-decoration-color:black;
+    text-decoration: underline;
+}
+
+/* .gap_button:hover{
+    text-decoration: none;
+    border-radius: 3px;
+    border-color: #BD9C6C;
+    border:solid ;
+    border-width: 3px;
+} */
