@@ -258,7 +258,7 @@ video {
     margin-top: 56px;
 }
 .col-lg-3 {
-    flex: 0 0 25%;
+    flex:  25%;
     max-width: 25%;
     position: relative;
     width: 100%;
@@ -521,6 +521,12 @@ footer p{
 .enditem{
     justify-content: flex-end;
     align-items: flex-end;
+}
+@media(max-width:800px){
+    .footer-area {
+        background-color: #BD9C6C;
+        width: 100% !important;
+    }
 }
 /* .gap_button:hover{
     text-decoration: none;
