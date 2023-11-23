@@ -46,6 +46,11 @@ body {
     z-index: 997;
     display: block;
 }
+header{
+    position:fixed;
+    width:100%;
+    margin-top: -15px;
+}
 .header-up {
     background: #fff;
     font-size: 12px;

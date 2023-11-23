@@ -6,8 +6,13 @@ header{
     z-index: 1;
     position: fixed;
 }
- .about-banner.overlay-bg {
+ .about-banner {
     background: url(aboutbanner.jpg) right no-repeat;
+    background-size: cover;
+    height: 25%;
+}
+ #masters {
+    background: url(computeredu.jpg) right no-repeat;
     background-size: cover;
     height: 25%;
 }
@@ -74,6 +79,11 @@ a, a:focus, a:hover {
     justify-content: center;
     align-items: center;
 }
+#sem{
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
 .departitem{
     flex:50%;
     flex-wrap: wrap;
@@ -87,4 +97,71 @@ a, a:focus, a:hover {
         color:#BD9C6C;
     }
 
+}
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.accordion > dt {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.accordion > dt > a.active {
+    color: #fff;
+    border-color: #ddd;
+    background: #BD9C6C;
+    cursor: default;
+}
+.accordion > dt > a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 8px 20px;
+    background: #f9f9ff;
+}
+.accordion > dt > a.active:after{
+    content: "\f106";
+    color: #fff;
+}
+.accordion > dt > a:after {
+    content: "\f107";
+    width: 15px;
+    height: 15px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-family: 'FontAwesome';
+    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+.accordion > dd {
+    margin-bottom: 10px;
+    padding: 10px 20px 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #777;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.eventdate{
+    color:#BD9C6C;
 }
