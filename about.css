@@ -69,6 +69,7 @@ a, a:focus, a:hover {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .departitem1{
     display: flex;
