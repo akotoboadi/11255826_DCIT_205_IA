@@ -37,7 +37,7 @@ Id:11255826   Name:Akoto Boadi
 ![news page](screenshots/news.jpeg)
 
 
-
+![gallery page](<screenshots/gallery page.jpeg>)
 
 #lesson learned
 I have learnt a lot of new things since I started this assignment last week, some of the things I have learnt so far are;
