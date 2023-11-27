@@ -11,14 +11,32 @@ First, I forked the original repository in the instructions  to get a copy of it
 Id:11255826   Name:Akoto Boadi
 # Screenshots of each page of my website
 ![homepage](screenshots/homepage.jpeg)
+
+
 ![aboutpage](screenshots/aboutpage.jpeg)
+
+
 ![facultypage](screenshots/ourfaculty.jpeg)
+
+
 ![resourcespage](screenshots/resources.jpeg)
+
+
 ![shortcoursespage](screenshots/shortcoursespage.jpeg)
+
+
 ![undergraduate page](screenshots/undergraduate.jpeg)
+
+
 ![masters page](screenshots/masters.jpeg)
+
+
 ![events page](screenshots/events.jpeg)
+
+
 ![news page](screenshots/news.jpeg)
+
+
 
 
 #lesson learned
